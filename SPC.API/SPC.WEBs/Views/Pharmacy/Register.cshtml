@@ -1,0 +1,196 @@
+﻿@model SPC.Web.Models.Pharmacy
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Pharmacy - My ASP.NET Application</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            
+        }
+
+        .register-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2.5rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .register-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .register-header h2 {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .register-header p {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .form-control {
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            border: 2px solid #eee;
+            transition: all 0.3s ease;
+            height: 3.5rem;
+        }
+
+        .form-control:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+        }
+
+        .form-label {
+            font-weight: 500;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .field-validation-error {
+            color: #e74c3c;
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+            display: block;
+        }
+
+        .input-icon {
+            position: absolute;
+            top: 40px;
+            left: 15px;
+            color: #95a5a6;
+        }
+
+        .input-with-icon {
+            padding-left: 2.5rem;
+        }
+
+        .btn-register {
+            width: 90%;
+            padding: 1rem;
+            background: #3498db;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            color: white;
+            transition: all 0.3s ease;
+            height: 3.5rem;
+            margin-top: 1rem;
+        }
+
+        .btn-register:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .form-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 1rem;
+        }
+
+        .form-col {
+            flex: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="register-container">
+            <div class="register-header">
+                <h2>Register Pharmacy</h2>
+                <p>Please fill in the details to register your pharmacy</p>
+            </div>
+
+            @using (Html.BeginForm("Register", "Pharmacy", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.PharmacyName, new { @class = "form-label" })
+                            <i class="fas fa-clinic-medical input-icon"></i>
+                            @Html.TextBoxFor(m => m.PharmacyName, new { @class = "form-control input-with-icon", placeholder = "Enter pharmacy name" })
+                            @Html.ValidationMessageFor(m => m.PharmacyName, "", new { @class = "field-validation-error" })
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Location, new { @class = "form-label" })
+                            <i class="fas fa-map-marker-alt input-icon"></i>
+                            @Html.TextBoxFor(m => m.Location, new { @class = "form-control input-with-icon", placeholder = "Enter location" })
+                            @Html.ValidationMessageFor(m => m.Location, "", new { @class = "field-validation-error" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.ContactNumber, new { @class = "form-label" })
+                            <i class="fas fa-phone input-icon"></i>
+                            @Html.TextBoxFor(m => m.ContactNumber, new { @class = "form-control input-with-icon", placeholder = "Enter contact number" })
+                            @Html.ValidationMessageFor(m => m.ContactNumber, "", new { @class = "field-validation-error" })
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+                            <i class="fas fa-envelope input-icon"></i>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control input-with-icon", placeholder = "Enter email address" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "field-validation-error" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.RegistrationNumber, new { @class = "form-label" })
+                            <i class="fas fa-id-card input-icon"></i>
+                            @Html.TextBoxFor(m => m.RegistrationNumber, new { @class = "form-control input-with-icon", placeholder = "Enter registration number" })
+                            @Html.ValidationMessageFor(m => m.RegistrationNumber, "", new { @class = "field-validation-error" })
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Password, new { @class = "form-label" })
+                            <i class="fas fa-lock input-icon"></i>
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control input-with-icon", placeholder = "Enter password" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "field-validation-error" })
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-register">
+                    <i class="fas fa-user-plus me-2"></i>Register Pharmacy
+                </button>
+            }
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

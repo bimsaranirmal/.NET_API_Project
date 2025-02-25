@@ -1,0 +1,89 @@
+﻿@{
+    Layout = "~/Views/Shared/_SupplierLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+
+    <!-- Display Supplier ID -->
+    <div class="alert alert-info mb-4">
+        <strong>Logged in Supplier ID:</strong> @ViewBag.SupplierId
+    </div>
+
+    <!-- Navigation Cards -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Submit Tender</h5>
+                    <p class="card-text">Submit a new tender for approval</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("Submit", "Tenders", new { supplierId = ViewBag.SupplierId })')">
+                        Go to Submit Tender
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Drug List</h5>
+                    <p class="card-text">Search and manage your drug inventory</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("drugs", "Inventory", new { supplierId = ViewBag.SupplierId })')">
+                        Go to Drug List
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Supplier Drug List</h5>
+                    <p class="card-text">Search and manage your drug inventory</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("AllDrugs", "SupplierDrug" ,new { supplierId = ViewBag.SupplierId })')">
+                        Go to Drug List
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">View Tenders</h5>
+                    <p class="card-text">Search your tenders</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("GetTendersBySupplierId", "Tenders", new { supplierId = ViewBag.SupplierId })')">
+                        Go to Tender List
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">View Orders</h5>
+                    <p class="card-text">Search your Orders</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("ViewOrders", "SupplierDrugOrder", new { supplierId = ViewBag.SupplierId })')">
+                        Go to Order List
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logout Option -->
+    <div class="text-center">
+        <a href="@Url.Action("Logout", "Supplier")" class="btn btn-outline-danger">
+            Logout
+        </a>
+    </div>
+</div>
+
+<script>
+    function navigateToPage(url) {
+        if (url) {
+            window.location.href = url; // Open in the same tab
+        }
+    }
+</script>

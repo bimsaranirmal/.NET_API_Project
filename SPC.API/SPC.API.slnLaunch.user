@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SPC.API\\SPC.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SPC.WEBs\\SPC.WEBs.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

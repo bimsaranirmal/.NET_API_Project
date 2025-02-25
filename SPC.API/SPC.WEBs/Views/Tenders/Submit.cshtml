@@ -1,0 +1,102 @@
+﻿@model SPC.Web.Models.Tender
+@{
+    Layout = "~/Views/Shared/_SupplierLayout.cshtml";
+}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h2 class="display-6 mb-3 text-primary">
+                <i class="bi bi-file-earmark-text me-2"></i>Submit Tender
+            </h2>
+        </div>
+    </div>
+
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-primary text-white">
+            <h5 class="card-title mb-0">
+                <i class="bi bi-journal-text me-2"></i> Tender Information
+            </h5>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-info mb-4">
+                <strong><i class="bi bi-person-badge me-2"></i>Logged in Supplier ID:</strong> @ViewBag.SupplierId
+            </div>
+
+            <form id="tenderForm" class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label"><i class="bi bi-person"></i> Supplier ID:</label>
+                    <input asp-for="SupplierId" class="form-control border-2 shadow-sm" id="SupplierId" value="@ViewBag.SupplierId" readonly />
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label"><i class="bi bi-info-circle"></i> Status:</label>
+                    <input asp-for="Status" class="form-control border-2 shadow-sm" id="Status" value="Pending" readonly />
+                </div>
+                <div class="col-md-12">
+                    <label class="form-label"><i class="bi bi-file-text"></i> Description:</label>
+                    <textarea asp-for="Description" class="form-control border-2 shadow-sm" id="Description" required rows="4" placeholder="Enter tender description"></textarea>
+                    <span id="descriptionError" class="text-danger d-none"><i class="bi bi-exclamation-triangle"></i> Description is required.</span>
+                </div>
+                <div class="col-md-12">
+                    <label class="form-label"><i class="bi bi-calendar"></i> Submitted Date:</label>
+                    <input asp-for="SubmittedDate" class="form-control border-2 shadow-sm" id="SubmittedDate" value="@DateTime.UtcNow.ToString("yyyy-MM-dd")" readonly type="date" />
+                </div>
+                <div class="col-12 mt-3">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-success shadow-sm" id="submitBtn">
+                            <i class="bi bi-send me-2"></i>Submit Tender
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap & Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function () {
+        document.getElementById("SupplierId").value = "@ViewBag.SupplierId";
+    }
+
+    document.getElementById("submitBtn").addEventListener("click", async function () {
+        var descriptionInput = document.getElementById("Description");
+        var descriptionError = document.getElementById("descriptionError");
+        var description = descriptionInput.value.trim();
+
+        if (!description) {
+            descriptionError.classList.remove("d-none");
+            return;
+        } else {
+            descriptionError.classList.add("d-none");
+        }
+
+        var tender = {
+            SupplierId: document.getElementById("SupplierId").value,
+            Description: description,
+            Status: "Pending",
+            SubmittedDate: document.getElementById("SubmittedDate").value
+        };
+
+        try {
+            const response = await fetch("https://localhost:7210/api/tender/submit", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(tender)
+            });
+
+            if (response.ok) {
+                alert("✅ Tender submitted successfully!");
+                document.getElementById("tenderForm").reset();
+            } else {
+                const errorData = await response.json();
+                alert("❌ Error: " + errorData.message);
+            }
+        } catch (error) {
+            alert("❌ An error occurred: " + error.message);
+        }
+    });
+</script>

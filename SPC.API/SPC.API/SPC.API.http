@@ -1,0 +1,6 @@
+@SPC.API_HostAddress = http://localhost:5062
+
+GET {{SPC.API_HostAddress}}/
+Accept: application/json
+
+###

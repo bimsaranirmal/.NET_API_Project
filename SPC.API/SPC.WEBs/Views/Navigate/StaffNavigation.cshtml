@@ -1,0 +1,72 @@
+﻿@{
+    Layout = "~/Views/Shared/_StaffNavigation1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>@ViewData["Title"]</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("StaffManage", "Staff")')">
+                                <i class="fas fa-users me-2"></i>Staff Management
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("ViewAll", "Supplier")')">
+                                <i class="fas fa-truck me-2"></i>Supplier View
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("Index", "Pharmacy")')">
+                                <i class="fas fa-hospital me-2"></i>Pharmacy Index
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("DrugList", "Inventory")')">
+                                <i class="fas fa-pills me-2"></i>Drug List
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("SupplierDrug", "SupplierDrug")')">
+                                <i class="fas fa-pills me-2"></i>Supplier Drug List
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("OrderList", "order")')">
+                                <i class="fas fa-shopping-cart me-2"></i>Orders
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("OrderList", "SupplierDrugOrder")')">
+                                <i class="fas fa-shopping-cart me-2"></i>Supplier Orders
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-outline-primary w-100" onclick="navigateToPage('@Url.Action("GetAllTenders", "Tenders")')">
+                                <i class="fas fa-file-contract me-2"></i>Tenders
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="@Url.Action("Logout", "Supplier")" class="btn btn-danger">
+                        <i class="fas fa-sign-out-alt me-2"></i>Logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function navigateToPage(url) {
+        if (url) {
+            window.location.href = url; // Open in the same tab
+        }
+    }
+</script>

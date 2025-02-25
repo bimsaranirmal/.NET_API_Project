@@ -1,0 +1,184 @@
+﻿@{
+    Layout = "~/Views/Shared/_SupplierLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Drugs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .card {
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            transform: scale(1.02);
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+        }
+
+        .search-results {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .btn-custom {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-custom:hover {
+            transform: scale(1.05);
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-4">
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="display-6 mb-3 text-primary">
+                    <i class="bi bi-search me-2"></i>Search Drugs
+                </h2>
+            </div>
+        </div>
+
+        <!-- Search Section -->
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-search me-2"></i>Search
+                </h5>
+            </div>
+            <div class="card-body">
+                <form id="searchForm" class="row g-3 align-items-end">
+                    <div class="col-md-9">
+                        <label class="form-label"><i class="bi bi-capsule"></i> Search Term:</label>
+                        <input name="searchTerm" class="form-control shadow-sm" id="searchTerm" required placeholder="Enter drug name or description" />
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success btn-custom" id="submitSearch">
+                                <i class="bi bi-search me-2"></i>Search
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-custom" id="resetSearch">
+                                <i class="bi bi-arrow-clockwise me-2"></i>Reset
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Search Results -->
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-list-ul me-2"></i>Search Results
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="search-results fade-in">
+                    <div id="drugList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Drugs -->
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-capsules me-2"></i>All Drugs
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="search-results fade-in">
+                    <div id="allDrugList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Search function for fetching drugs based on search term
+        document.getElementById("submitSearch").addEventListener("click", async function () {
+            var searchTerm = document.getElementById("searchTerm").value;
+            if (!searchTerm) {
+                alert("⚠ Please enter a search term.");
+                return;
+            }
+            try {
+                const response = await fetch("https://localhost:7210/api/inventory/drugs?searchTerm=" + encodeURIComponent(searchTerm), {
+                    method: "GET",
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                });
+                if (response.ok) {
+                    const drugs = await response.json();
+                    let drugListHtml = "<table class='table table-hover mb-0'><thead><tr><th>Name</th><th>Description</th><th>Unit Price</th><th>Stock Level</th></tr></thead><tbody>";
+                    drugs.forEach(drug => {
+                        drugListHtml += `<tr><td>${drug.name}</td><td>${drug.description}</td><td>LKR.${drug.unitPrice.toFixed(2)}</td><td>${drug.stockLevel}</td></tr>`;
+                    });
+                    drugListHtml += "</tbody></table>";
+                    document.getElementById("drugList").innerHTML = drugListHtml;
+                    document.getElementById("allDrugList").style.display = "none"; // Hide all drugs list after a search
+                } else {
+                    const errorData = await response.json();
+                    alert("❌ Error: " + errorData.message);
+                }
+            } catch (error) {
+                alert("❌ An error occurred: " + error.message);
+            }
+        });
+
+        // Function to fetch and display all drugs
+        async function fetchAllDrugs() {
+            try {
+                const response = await fetch("https://localhost:7210/api/inventory/all", {
+                    method: "GET",
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                });
+                if (response.ok) {
+                    const allDrugs = await response.json();
+                    let allDrugListHtml = "<table class='table table-hover mb-0'><thead><tr><th>Name</th><th>Description</th><th>Unit Price</th><th>Stock Level</th></tr></thead><tbody>";
+                    allDrugs.forEach(drug => {
+                        allDrugListHtml += `<tr><td>${drug.name}</td><td>${drug.description}</td><td>LKR.${drug.unitPrice.toFixed(2)}</td><td>${drug.stockLevel}</td></tr>`;
+                    });
+                    allDrugListHtml += "</tbody></table>";
+                    document.getElementById("allDrugList").innerHTML = allDrugListHtml;
+                } else {
+                    alert("⚠ Error fetching all drugs.");
+                }
+            } catch (error) {
+                alert("❌ An error occurred: " + error.message);
+            }
+        }
+
+        // Call fetchAllDrugs when the page loads to display all drugs
+        window.onload = fetchAllDrugs;
+
+        // Reset button function
+        document.getElementById("resetSearch").addEventListener("click", function () {
+            document.getElementById("searchTerm").value = "";
+            document.getElementById("drugList").innerHTML = "";
+            document.getElementById("allDrugList").style.display = "block";
+        });
+    </script>
+</body>
+</html>

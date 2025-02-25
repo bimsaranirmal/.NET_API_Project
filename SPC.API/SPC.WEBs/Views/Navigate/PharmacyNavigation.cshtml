@@ -1,0 +1,67 @@
+﻿@{
+    Layout = "~/Views/Shared/_PharmacyNavigation.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+
+    <!-- Display Pharmacy ID -->
+    <div class="alert alert-info mb-4">
+        <strong>Logged in Pharmacy ID:</strong> @ViewBag.PharmacyId
+    </div>
+
+    <!-- Navigation Cards -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Order Details</h5>
+                    <p class="card-text">View placed order details</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("OrdersDetails", "order", new { pharmacyId = ViewBag.PharmacyId })')">
+                        Go to Order Management
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Place Order</h5>
+                    <p class="card-text">Search drugs and place order</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("PlaceOrder", "order", new { pharmacyId = ViewBag.PharmacyId })')">
+                        Go to Pharmacy Index
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Drug List</h5>
+                    <p class="card-text">Search and manage your drug inventory</p>
+                    <button class="btn btn-primary w-100" onclick="navigateToPage('@Url.Action("PharmacyDrug", "Inventory", new { pharmacyId = ViewBag.PharmacyId })')">
+                        Go to Drug List
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logout Option -->
+    <div class="text-center">
+        <a href="@Url.Action("Logout", "Pharmacy")" class="btn btn-outline-danger">
+            Logout
+        </a>
+    </div>
+</div>
+
+<script>
+    function navigateToPage(url) {
+        if (url) {
+            window.location.href = url; // Open in the same tab
+        }
+    }
+</script>

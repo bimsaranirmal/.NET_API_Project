@@ -1,0 +1,2226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\tender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\tender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\order\\ordersdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\order\\ordersdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\shared\\_pharmacynavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\shared\\_pharmacynavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\supplierdrug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\supplierdrug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\supplierdrugorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\supplierdrugorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\updatestockmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\updatestockmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\tendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\tendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\supplierdrugordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\supplierdrugordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\supplierdrugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\supplierdrugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\staff\\staffmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\staff\\staffmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\shared\\_staffnavigation1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\shared\\_staffnavigation1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\tenders\\gettendersbysupplierid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\tenders\\gettendersbysupplierid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplierdrug\\alldrugs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplierdrug\\alldrugs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplierdrugorder\\vieworders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplierdrugorder\\vieworders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\drugs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\drugs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\shared\\_supplierlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\shared\\_supplierlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\tenders\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\tenders\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\shared\\_staffnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\shared\\_staffnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplier\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplier\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\druglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\druglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\pharmacy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\pharmacy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\navigate\\staffnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\navigate\\staffnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\staff\\stafflogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\staff\\stafflogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\tenders\\getalltenders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\tenders\\getalltenders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplierdrugorder\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplierdrugorder\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplierdrug\\supplierdrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplierdrug\\supplierdrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\navigate\\staffusernavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\navigate\\staffusernavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\navigate\\suppliernavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\navigate\\suppliernavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\staffdrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\staffdrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\navigate\\pharmacynavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\navigate\\pharmacynavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\pharmacy\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\pharmacy\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\pharmacy\\allpharmacies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\pharmacy\\allpharmacies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\searchbyplant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\searchbyplant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\pharmacydrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\pharmacydrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\searchdrugs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\searchdrugs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\pharmacy\\pharmacylogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\pharmacy\\pharmacylogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplier\\supplierlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplier\\supplierlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\supplierdrugcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\supplierdrugcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\tendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\tendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\supplierdrugordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\supplierdrugordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\supplierdrugorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\supplierdrugorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\adddrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\adddrug.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\navigatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\navigatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplier\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplier\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\pharmacy\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\pharmacy\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\staff\\staffregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\staff\\staffregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\supplierdrug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\supplierdrug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\supplierdrugorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\supplierdrugorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\isupplierdrugorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\isupplierdrugorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\supplierdrugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\supplierdrugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\isupplierdrugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\isupplierdrugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\supplierdrug\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\supplierdrug\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\loginresponsesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\loginresponsesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\itenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\itenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\tender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\tender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250206124748_AddSupplierDrugTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\staffloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\staffloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\tenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\tenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\pharmacyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\pharmacyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\loginresponsesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\loginresponsesupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\spc.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\spc.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250202070324_FixTenderTableName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\services\\ipharmacyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\services\\ipharmacyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\views\\inventory\\updatestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\views\\inventory\\updatestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BIMSARA\\AppData\\Local\\Temp\\dh1x532x..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\spc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\spc.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\spc.webs\\models\\updatestockmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413B162D-C80B-4471-A2C4-CA0E75ADF069}|SPC.WEBs\\SPC.WEBs.csproj|solutionrelative:spc.webs\\models\\updatestockmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\spc.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\spc.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250201014225_updatepharmacyschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250201014225_updatepharmacyschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250201053839_addstaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250201053839_addstaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250201024631_addpasswordtopharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250201024631_addpasswordtopharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250201023410_addpasswordtosupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250201023410_addpasswordtosupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202044429_addsuppliertenderwithprecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202044429_addsuppliertenderwithprecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202044304_addsuppliertender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202044304_addsuppliertender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202071346_initialcreatev3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202071346_initialcreatev3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202070531_fixdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202070531_fixdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202071138_initialcreatev2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202071138_initialcreatev2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202065851_createtenderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202065851_createtenderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250202133834_addpharmacyuniqueconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250202133834_addpharmacyuniqueconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250203003920_addtotalcolumntoorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250203003920_addtotalcolumntoorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250203004919_initialcreatev4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250203004919_initialcreatev4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250207052659_initialcreatev10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250207052659_initialcreatev10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250207021527_fixtotalpriceprecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250207021527_fixtotalpriceprecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250207021317_addsupplierdrugordertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250207021317_addsupplierdrugordertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250206143228_initialcreatev9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250206143228_initialcreatev9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|c:\\users\\bimsara\\onedrive\\desktop\\spc.api\\spc.api\\migrations\\20250206124912_addsupplierdrugtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA9066B-9F42-46ED-BB43-C6F000EB3082}|SPC.API\\SPC.API.csproj|solutionrelative:spc.api\\migrations\\20250206124912_addsupplierdrugtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SupplierDrugController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\SupplierDrugController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\SupplierDrugController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\SupplierDrugController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\SupplierDrugController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:46:38.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SupplierDrugOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\SupplierDrugOrderController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\SupplierDrugOrderController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\SupplierDrugOrderController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\SupplierDrugOrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:31:00.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Supplier.cs",
+              "RelativeToolTip": "SPC.API\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:26:52.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateStockModel.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\UpdateStockModel.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\UpdateStockModel.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\UpdateStockModel.cs",
+              "RelativeToolTip": "SPC.API\\Models\\UpdateStockModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T02:15:54.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tender.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Tender.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\Tender.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Tender.cs*",
+              "RelativeToolTip": "SPC.API\\Models\\Tender.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:43:24.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\order\\OrdersDetails.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\order\\OrdersDetails.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\order\\OrdersDetails.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\order\\OrdersDetails.cshtml",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAN0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T13:09:18.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_PharmacyNavigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_PharmacyNavigation.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Shared\\_PharmacyNavigation.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_PharmacyNavigation.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Shared\\_PharmacyNavigation.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T02:59:46.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SupplierDrugOrder.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\SupplierDrugOrder.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\SupplierDrugOrder.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\SupplierDrugOrder.cs",
+              "RelativeToolTip": "SPC.API\\Models\\SupplierDrugOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:05:06.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SupplierDrug.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\SupplierDrug.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\SupplierDrug.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\SupplierDrug.cs",
+              "RelativeToolTip": "SPC.API\\Models\\SupplierDrug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:40:56.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:26:04.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:37:27.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PharmacyController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\PharmacyController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\PharmacyController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\PharmacyController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\PharmacyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:44:24.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TenderController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\TenderController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\TenderController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\TenderController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\TenderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:42:46.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:26:32.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "SPC.API\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T01:24:57.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\InventoryService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\InventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:28:21.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Drug.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Drug.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\Drug.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Drug.cs",
+              "RelativeToolTip": "SPC.API\\Models\\Drug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:27:03.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StaffManage.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Staff\\StaffManage.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Staff\\StaffManage.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Staff\\StaffManage.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Staff\\StaffManage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T11:53:07.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SPC.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\appsettings.json",
+              "RelativeToolTip": "SPC.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T12:22:30.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\OrderService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\OrderService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:28:31.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Order.cs",
+              "RelativeToolTip": "SPC.API\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:27:12.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_StaffNavigation1.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_StaffNavigation1.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Shared\\_StaffNavigation1.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_StaffNavigation1.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Shared\\_StaffNavigation1.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAFB2wE4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T03:27:59.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T16:09:03.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\StaffService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\StaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:37:01.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\OrderItem.cs",
+              "RelativeToolTip": "SPC.API\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:27:22.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T16:07:59.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwFYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T16:08:03.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ViewOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrugOrder\\ViewOrders.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\SupplierDrugOrder\\ViewOrders.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrugOrder\\ViewOrders.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\SupplierDrugOrder\\ViewOrders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T04:18:56.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetTendersBySupplierId.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Tenders\\GetTendersBySupplierId.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Tenders\\GetTendersBySupplierId.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Tenders\\GetTendersBySupplierId.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Tenders\\GetTendersBySupplierId.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T07:25:38.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T16:07:52.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AllDrugs.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrug\\AllDrugs.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\SupplierDrug\\AllDrugs.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrug\\AllDrugs.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\SupplierDrug\\AllDrugs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T15:02:13.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "drugs.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\drugs.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\drugs.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\drugs.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\drugs.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAABxwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T02:44:18.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_SupplierLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_SupplierLayout.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Shared\\_SupplierLayout.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_SupplierLayout.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Shared\\_SupplierLayout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAMBtwA0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T02:21:52.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ViewAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\supplier\\ViewAll.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\supplier\\ViewAll.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\supplier\\ViewAll.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\supplier\\ViewAll.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAMB9wEsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T02:03:02.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DrugList.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\DrugList.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\DrugList.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\DrugList.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\DrugList.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAANiGwJYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T01:34:47.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_StaffNavigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_StaffNavigation.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Shared\\_StaffNavigation.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Shared\\_StaffNavigation.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Shared\\_StaffNavigation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T03:09:56.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Submit.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Tenders\\Submit.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Tenders\\Submit.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Tenders\\Submit.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Tenders\\Submit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T07:21:48.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Pharmacy\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\Index.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Pharmacy\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAFB2wDMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T15:28:11.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StaffNavigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\StaffNavigation.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Navigate\\StaffNavigation.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\StaffNavigation.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Navigate\\StaffNavigation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBpwAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T02:33:33.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "StaffLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Staff\\StaffLogin.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Staff\\StaffLogin.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Staff\\StaffLogin.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Staff\\StaffLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T07:38:52.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetAllTenders.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Tenders\\GetAllTenders.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Tenders\\GetAllTenders.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Tenders\\GetAllTenders.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Tenders\\GetAllTenders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T09:12:45.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderList.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrugOrder\\OrderList.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\SupplierDrugOrder\\OrderList.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrugOrder\\OrderList.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\SupplierDrugOrder\\OrderList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:19:39.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrderList.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\order\\OrderList.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\order\\OrderList.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\order\\OrderList.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\order\\OrderList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T10:05:58.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SupplierDrug.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrug\\SupplierDrug.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\SupplierDrug\\SupplierDrug.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrug\\SupplierDrug.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\SupplierDrug\\SupplierDrug.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T01:59:50.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StaffUserNavigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\StaffUserNavigation.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Navigate\\StaffUserNavigation.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\StaffUserNavigation.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Navigate\\StaffUserNavigation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:49:03.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SupplierNavigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\SupplierNavigation.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Navigate\\SupplierNavigation.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\SupplierNavigation.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Navigate\\SupplierNavigation.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAOB/wB8AAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T04:24:18.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "staffDrug.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\staffDrug.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\staffDrug.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\staffDrug.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\staffDrug.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T03:11:08.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PharmacyNavigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\PharmacyNavigation.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Navigate\\PharmacyNavigation.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Navigate\\PharmacyNavigation.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Navigate\\PharmacyNavigation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T04:20:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "staff.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\staff.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Pharmacy\\staff.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\staff.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Pharmacy\\staff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T03:13:07.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AllPharmacies.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\AllPharmacies.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Pharmacy\\AllPharmacies.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\AllPharmacies.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Pharmacy\\AllPharmacies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:58:19.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PharmacyController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\PharmacyController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\PharmacyController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\PharmacyController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\PharmacyController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvx0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T11:38:11.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA3wCYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:54:28.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SearchByPlant.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\SearchByPlant.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\SearchByPlant.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\SearchByPlant.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\SearchByPlant.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAMBtwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T02:35:13.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PharmacyDrug.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\PharmacyDrug.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\PharmacyDrug.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\PharmacyDrug.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\PharmacyDrug.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T03:03:27.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SearchDrugs.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\SearchDrugs.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\SearchDrugs.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\SearchDrugs.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\SearchDrugs.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAuwKoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T05:49:34.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PharmacyLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\PharmacyLogin.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Pharmacy\\PharmacyLogin.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\PharmacyLogin.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Pharmacy\\PharmacyLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T03:07:08.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:25:00.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\order\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\order\\PlaceOrder.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\order\\PlaceOrder.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\order\\PlaceOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T09:47:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SupplierLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\supplier\\SupplierLogin.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\supplier\\SupplierLogin.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\supplier\\SupplierLogin.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\supplier\\SupplierLogin.cshtml",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwMEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T04:15:55.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SupplierDrugContoller.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\SupplierDrugContoller.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\SupplierDrugContoller.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\SupplierDrugContoller.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\SupplierDrugContoller.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowGUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:28:06.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TenderController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\TenderController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\TenderController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\TenderController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\TenderController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:20:14.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SupplierDrugOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\SupplierDrugOrderController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\SupplierDrugOrderController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\SupplierDrugOrderController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\SupplierDrugOrderController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:43:33.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAYwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T04:08:22.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SupplierDrugOrder.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\SupplierDrugOrder.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\SupplierDrugOrder.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\SupplierDrugOrder.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\SupplierDrugOrder.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:44:08.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AddDrug.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\AddDrug.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\AddDrug.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\AddDrug.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\AddDrug.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T01:43:13.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "NavigateController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\NavigateController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\NavigateController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\NavigateController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\NavigateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T02:43:09.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\supplier\\Register.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\supplier\\Register.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\supplier\\Register.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\supplier\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAABAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T12:36:29.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SPC.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:25:30.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Staff.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\Staff.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Staff.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T07:10:16.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\Register.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Pharmacy\\Register.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Pharmacy\\Register.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Pharmacy\\Register.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAEBVwMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T11:38:56.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "StaffRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Staff\\StaffRegister.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Staff\\StaffRegister.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Staff\\StaffRegister.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Staff\\StaffRegister.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwAsBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T07:09:36.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\SupplierService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\SupplierService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\SupplierService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\SupplierService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAtwHoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:28:10.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "SupplierDrug.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\SupplierDrug.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\SupplierDrug.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\SupplierDrug.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\SupplierDrug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:29:24.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\LoginResponse.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T02:01:35.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "20250207052659_InitialCreatev10.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250207052659_InitialCreatev10.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250207052659_InitialCreatev10.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250207052659_InitialCreatev10.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250207052659_InitialCreatev10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T05:27:00.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "SupplierDrugOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\SupplierDrugOrderService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\SupplierDrugOrderService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\SupplierDrugOrderService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\SupplierDrugOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:06:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ISupplierDrugOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ISupplierDrugOrderService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\ISupplierDrugOrderService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ISupplierDrugOrderService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\ISupplierDrugOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:05:37.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\OrderItem.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:02:46.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "SupplierDrugService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\SupplierDrugService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\SupplierDrugService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\SupplierDrugService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\SupplierDrugService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:43:14.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "20250207021527_FixTotalPricePrecision.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250207021527_FixTotalPricePrecision.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250207021527_FixTotalPricePrecision.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250207021527_FixTotalPricePrecision.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250207021527_FixTotalPricePrecision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:15:27.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAiwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T07:06:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "20250207021317_AddSupplierDrugOrderTable.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250207021317_AddSupplierDrugOrderTable.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250207021317_AddSupplierDrugOrderTable.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250207021317_AddSupplierDrugOrderTable.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250207021317_AddSupplierDrugOrderTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:13:17.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ISupplierDrugService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ISupplierDrugService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\ISupplierDrugService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ISupplierDrugService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\ISupplierDrugService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:43:48.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Program.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Program.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Program.cs",
+              "RelativeToolTip": "SPC.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:23:01.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrug\\Add.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\SupplierDrug\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\SupplierDrug\\Add.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\SupplierDrug\\Add.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwEAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T13:33:36.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "LoginResponseSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\LoginResponseSupplier.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\LoginResponseSupplier.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\LoginResponseSupplier.cs",
+              "RelativeToolTip": "SPC.API\\Models\\LoginResponseSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:37:05.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Pharmacy.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Pharmacy.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\Pharmacy.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Pharmacy.cs",
+              "RelativeToolTip": "SPC.API\\Models\\Pharmacy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:42:54.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IStaffService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IStaffService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\IStaffService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IStaffService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\IStaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:36:38.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ITenderService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ITenderService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\ITenderService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ITenderService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\ITenderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:42:02.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ISupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ISupplierService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\ISupplierService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\ISupplierService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\ISupplierService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:27:43.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\IInventoryService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IInventoryService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\IInventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:27:51.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "20250206143228_InitialCreatev9.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250206143228_InitialCreatev9.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250206143228_InitialCreatev9.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250206143228_InitialCreatev9.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250206143228_InitialCreatev9.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:32:28.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Supplier.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Supplier.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:51:51.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Tender.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Tender.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\Tender.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Tender.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\Tender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:20:39.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T01:24:38.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "20250206124912_AddSupplierDrugTable.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250206124912_AddSupplierDrugTable.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250206124912_AddSupplierDrugTable.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250206124912_AddSupplierDrugTable.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250206124912_AddSupplierDrugTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:49:13.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20250206124748_AddSupplierDrugTable.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250206124748_AddSupplierDrugTable.cs",
+              "RelativeDocumentMoniker": "..\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250206124748_AddSupplierDrugTable.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250206124748_AddSupplierDrugTable.cs",
+              "RelativeToolTip": "..\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250206124748_AddSupplierDrugTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:47:49.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Drug.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Drug.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\Drug.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Drug.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\Drug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T04:34:54.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Pharmacy.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Pharmacy.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\Pharmacy.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Pharmacy.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\Pharmacy.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:30:03.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "StaffLoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\StaffLoginResponse.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\StaffLoginResponse.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\StaffLoginResponse.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\StaffLoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:33:33.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "TenderService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\TenderService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\TenderService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\TenderService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\TenderService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:42:20.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Order.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\Order.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\Order.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:02:50.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "PharmacyService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\PharmacyService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\PharmacyService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\PharmacyService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\PharmacyService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:43:58.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "LoginResponseSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\LoginResponseSupplier.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\LoginResponseSupplier.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\LoginResponseSupplier.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\LoginResponseSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:29:51.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IOrderService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:28:00.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "SPC.API\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T02:31:48.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Web.config",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\Web.config",
+              "RelativeToolTip": "SPC.WEBs\\Views\\Web.config",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-30T12:08:18.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Web.config",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Web.config",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Web.config",
+              "RelativeToolTip": "SPC.WEBs\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-03T01:17:51.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Web.Debug.config",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Web.Debug.config",
+              "RelativeToolTip": "SPC.WEBs\\Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-03T01:27:50.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Web.Release.config",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Web.Release.config",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Web.Release.config",
+              "RelativeToolTip": "SPC.WEBs\\Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-03T01:27:52.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\packages.config",
+              "RelativeDocumentMoniker": "SPC.WEBs\\packages.config",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\packages.config",
+              "RelativeToolTip": "SPC.WEBs\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-03T01:27:56.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Global.asax.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Global.asax.cs",
+              "RelativeToolTip": "SPC.WEBs\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:59:15.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "20250203003920_AddTotalColumnToOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250203003920_AddTotalColumnToOrderItem.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250203003920_AddTotalColumnToOrderItem.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250203003920_AddTotalColumnToOrderItem.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250203003920_AddTotalColumnToOrderItem.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T00:39:20.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "20250203004919_InitialCreateV4.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250203004919_InitialCreateV4.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250203004919_InitialCreateV4.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250203004919_InitialCreateV4.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250203004919_InitialCreateV4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T00:49:19.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Models\\Staff.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Models\\Staff.cs",
+              "RelativeToolTip": "SPC.API\\Models\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:36:06.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "20250202133834_AddPharmacyUniqueConstraints.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202133834_AddPharmacyUniqueConstraints.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202133834_AddPharmacyUniqueConstraints.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202133834_AddPharmacyUniqueConstraints.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202133834_AddPharmacyUniqueConstraints.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:38:34.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "SPC.API.http",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\SPC.API.http",
+              "RelativeDocumentMoniker": "SPC.API\\SPC.API.http",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\SPC.API.http",
+              "RelativeToolTip": "SPC.API\\SPC.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-29T12:23:11.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "20250202071346_InitialCreateV3.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202071346_InitialCreateV3.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202071346_InitialCreateV3.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202071346_InitialCreateV3.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202071346_InitialCreateV3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:13:46.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "20250202070531_FixDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202070531_FixDatabase.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202070531_FixDatabase.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202070531_FixDatabase.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202070531_FixDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:05:31.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "20250202071138_InitialCreateV2.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202071138_InitialCreateV2.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202071138_InitialCreateV2.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202071138_InitialCreateV2.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202071138_InitialCreateV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:11:38.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "20250202070324_FixTenderTableName.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250202070324_FixTenderTableName.cs",
+              "RelativeDocumentMoniker": "..\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250202070324_FixTenderTableName.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250202070324_FixTenderTableName.cs",
+              "RelativeToolTip": "..\\New folder (3)\\SPC.API\\SPC.API\\Migrations\\20250202070324_FixTenderTableName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:03:24.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "20250202065851_CreateTendersTable.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202065851_CreateTendersTable.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202065851_CreateTendersTable.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202065851_CreateTendersTable.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202065851_CreateTendersTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:58:52.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "IPharmacyService.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IPharmacyService.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Services\\IPharmacyService.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Services\\IPharmacyService.cs",
+              "RelativeToolTip": "SPC.API\\Services\\IPharmacyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T10:47:55.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20250202044429_AddSupplierTenderWithPrecision.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202044429_AddSupplierTenderWithPrecision.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202044429_AddSupplierTenderWithPrecision.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202044429_AddSupplierTenderWithPrecision.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202044429_AddSupplierTenderWithPrecision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T04:44:29.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "20250202044304_AddSupplierTender.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202044304_AddSupplierTender.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250202044304_AddSupplierTender.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250202044304_AddSupplierTender.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250202044304_AddSupplierTender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T04:43:04.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SPC.WEBs\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:08:09.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "UpdateStock.cshtml",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\UpdateStock.cshtml",
+              "RelativeDocumentMoniker": "SPC.WEBs\\Views\\inventory\\UpdateStock.cshtml",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\Views\\inventory\\UpdateStock.cshtml",
+              "RelativeToolTip": "SPC.WEBs\\Views\\inventory\\UpdateStock.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T08:12:03.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "20250201053839_AddStaffModel.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201053839_AddStaffModel.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250201053839_AddStaffModel.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201053839_AddStaffModel.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250201053839_AddStaffModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:38:39.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "20250201024631_AddPasswordToPharmacy.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201024631_AddPasswordToPharmacy.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250201024631_AddPasswordToPharmacy.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201024631_AddPasswordToPharmacy.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250201024631_AddPasswordToPharmacy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T02:46:31.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "20250201023410_AddPasswordToSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201023410_AddPasswordToSupplier.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250201023410_AddPasswordToSupplier.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201023410_AddPasswordToSupplier.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250201023410_AddPasswordToSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T02:34:11.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "20250201014225_UpdatePharmacySchema.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201014225_UpdatePharmacySchema.cs",
+              "RelativeDocumentMoniker": "SPC.API\\Migrations\\20250201014225_UpdatePharmacySchema.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Migrations\\20250201014225_UpdatePharmacySchema.cs",
+              "RelativeToolTip": "SPC.API\\Migrations\\20250201014225_UpdatePharmacySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T01:42:26.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "SPC.API.csproj",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\SPC.API.csproj",
+              "RelativeDocumentMoniker": "SPC.API\\SPC.API.csproj",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\SPC.API.csproj",
+              "RelativeToolTip": "SPC.API\\SPC.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-30T10:59:45.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "dh1x532x..sql",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\AppData\\Local\\Temp\\dh1x532x..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\dh1x532x..sql",
+              "ToolTip": "C:\\Users\\BIMSARA\\AppData\\Local\\Temp\\dh1x532x..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\dh1x532x..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-31T11:06:15.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "UpdateStockModel.cs",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\UpdateStockModel.cs",
+              "RelativeDocumentMoniker": "SPC.WEBs\\models\\UpdateStockModel.cs",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.WEBs\\models\\UpdateStockModel.cs",
+              "RelativeToolTip": "SPC.WEBs\\models\\UpdateStockModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T08:16:27.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SPC.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SPC.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-30T12:23:04.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "SPC.API",
+              "DocumentMoniker": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\SPC.API.csproj",
+              "RelativeDocumentMoniker": "SPC.API\\SPC.API.csproj",
+              "ToolTip": "C:\\Users\\BIMSARA\\OneDrive\\Desktop\\SPC.API\\SPC.API\\SPC.API.csproj",
+              "RelativeToolTip": "SPC.API\\SPC.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-29T12:23:27.172Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

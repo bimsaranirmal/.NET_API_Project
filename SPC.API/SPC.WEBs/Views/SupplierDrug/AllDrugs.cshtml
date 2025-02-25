@@ -1,0 +1,325 @@
+﻿@{
+    Layout = "~/Views/Shared/_SupplierLayout.cshtml";
+}
+
+    <h2>@ViewData["Title"]</h2>
+
+    <div class="card-header bg-white">
+        <h5 class="card-title mb-0">
+            <i class="fas fa-file-contract me-2"></i>Drug Information
+        </h5>
+        <div class="alert alert-info mb-4">
+            <strong>Logged in Supplier ID:</strong> @ViewBag.SupplierId
+        </div>
+    </div>
+    <!-- Success Message (if any) -->
+    <div id="success-message" class="alert alert-success" style="display: none;"></div>
+
+
+    <!-- Add Drug Button -->
+    <button class="btn btn-primary" onclick="openAddDrugModal()">Add Drug</button>
+
+    <!-- Add Drug Modal -->
+    <div class="modal" tabindex="-1" id="addDrugModal" style="display:none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Drug</h5>
+                    <button type="button" class="btn-close" onclick="closeAddDrugModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addDrugForm">
+                        <div class="mb-3">
+                            <label for="drugName" class="form-label">Drug Name</label>
+                            <input type="text" class="form-control" id="drugName" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="drugDescription" class="form-label">Description</label>
+                            <input type="text" class="form-control" id="drugDescription" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="unitPrice" class="form-label">Unit Price</label>
+                            <input type="number" class="form-control" id="unitPrice" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="stockLevel" class="form-label">Stock Level</label>
+                            <input type="number" class="form-control" id="stockLevel" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="manufactureDate" class="form-label">Manufacture Date</label>
+                            <input type="date" class="form-control" id="manufactureDate" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="expiryDate" class="form-label">Expiry Date</label>
+                            <input type="date" class="form-control" id="expiryDate" required />
+                        </div>
+                        <button type="submit" class="btn btn-success">Add Drug</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Box -->
+    <div>
+        <label for="searchTerm">Search Drugs:</label>
+        <input type="text" id="searchTerm" placeholder="Enter drug name" />
+        <button onclick="searchDrugs()">Search</button>
+    </div>
+
+    <!-- Display Drugs Table -->
+    <!-- Display Drugs Table -->
+    <table class="table" id="drugsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Supplier id</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+                <th>Stock Level</th>
+                <th>Manufacture Date</th>
+                <th>Expiry Date</th>
+                <th>Actions</th> <!-- Add actions column -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic rows will be inserted here -->
+        </tbody>
+    </table>
+
+    <!-- Update Stock Modal -->
+    <div class="modal" tabindex="-1" id="updateStockModal" style="display:none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Update Stock</h5>
+                    <button type="button" class="btn-close" onclick="closeUpdateStockModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="updateStockForm">
+                        <div class="mb-3">
+                            <label for="newStockLevel" class="form-label">New Stock Level</label>
+                            <input type="number" class="form-control" id="newStockLevel" required />
+                        </div>
+                        <input type="hidden" id="drugId" />
+                        <button type="submit" class="btn btn-success">Update Stock</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Error Message (if any) -->
+<div id="error-message" style="color: red; display: none;"></div>
+
+@section Scripts {
+    <script>
+        // Fetch all drugs when the page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            fetchAllDrugs();
+        });
+
+        // Function to fetch all drugs for the logged-in supplier
+        function fetchAllDrugs() {
+            const supplierId = '@ViewBag.SupplierId'; // Get the supplier ID from the ViewBag
+
+            fetch(`https://localhost:7210/api/SupplierDrug/supplier/${supplierId}`) // API endpoint to fetch drugs by supplier
+                .then(response => response.json())
+                .then(data => {
+                    displayDrugs(data); // Display the fetched drugs in the table
+                })
+                .catch(error => {
+                    console.error('Error fetching drugs:', error);
+                    displayErrorMessage('Error fetching drugs. Please try again later.');
+                });
+        }
+
+        // Function to display drugs in the table
+        // Function to display drugs in the table
+        function displayDrugs(drugs) {
+            const tableBody = document.querySelector('#drugsTable tbody');
+            tableBody.innerHTML = ''; // Clear the existing rows
+
+            if (drugs && drugs.length > 0) {
+                drugs.forEach(drug => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                <td>${drug.name}</td>
+                <td>${drug.supplierId}</td>
+                <td>${drug.description}</td>
+                <td>${drug.unitPrice}</td>
+                <td>${drug.stockLevel}</td>
+                <td>${new Date(drug.manufactureDate).toLocaleDateString()}</td>
+                <td>${new Date(drug.expiryDate).toLocaleDateString()}</td>
+                <td>
+                    <button class="btn btn-warning" onclick="openUpdateStockModal(${drug.id})">Update Stock</button>
+                    <button class="btn btn-danger" onclick="deleteDrug(${drug.id})">Delete</button>
+                </td>
+            `;
+                    tableBody.appendChild(row);
+                });
+            } else {
+                // Show message if no drugs are found
+                tableBody.innerHTML = '<tr><td colspan="8">No drugs available.</td></tr>';
+            }
+        }
+
+
+        // Function to display error message
+        function displayErrorMessage(message) {
+            const errorMessageDiv = document.getElementById('error-message');
+            errorMessageDiv.style.display = 'block';
+            errorMessageDiv.innerText = message;
+        }
+
+        // Function to search drugs by term
+        function searchDrugs() {
+            const searchTerm = document.getElementById('searchTerm').value;
+            const supplierId = '@ViewBag.SupplierId'; // Get the supplier ID from the ViewBag
+
+            if (searchTerm.trim() === '') {
+                // If search term is empty, fetch all drugs
+                fetchAllDrugs();
+            } else {
+                fetch(`https://localhost:7210/api/SupplierDrug/drugSearch?searchTerm=${searchTerm}&supplierId=${supplierId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        displayDrugs(data); // Display the search results
+                    })
+                    .catch(error => {
+                        console.error('Error searching drugs:', error);
+                        displayErrorMessage('Error searching drugs. Please try again later.');
+                    });
+            }
+        }
+
+        // Function to open the add drug modal
+        function openAddDrugModal() {
+            const modal = document.getElementById('addDrugModal');
+            modal.style.display = 'block';
+        }
+
+        // Function to close the add drug modal
+        function closeAddDrugModal() {
+            const modal = document.getElementById('addDrugModal');
+            modal.style.display = 'none';
+        }
+
+        function displaySuccessMessage(message) {
+            const successMessageDiv = document.getElementById('success-message');
+            successMessageDiv.style.display = 'block';
+            successMessageDiv.innerText = message;
+            setTimeout(() => {
+                successMessageDiv.style.display = 'none';
+            }, 3000);  // Hide the message after 3 seconds
+        }
+
+        // Handle form submission for adding a drug
+        document.getElementById('addDrugForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const supplierId = '@ViewBag.SupplierId'; // Get the supplier ID from the ViewBag
+            const newDrug = {
+                supplierId: supplierId,
+                name: document.getElementById('drugName').value,
+                description: document.getElementById('drugDescription').value,
+                unitPrice: parseFloat(document.getElementById('unitPrice').value),
+                stockLevel: parseInt(document.getElementById('stockLevel').value),
+                manufactureDate: document.getElementById('manufactureDate').value,
+                expiryDate: document.getElementById('expiryDate').value,
+            };
+
+            fetch('https://localhost:7210/api/SupplierDrug/add', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(newDrug),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.id) {
+                    // Close the modal and fetch updated drug list
+                    closeAddDrugModal();
+                    fetchAllDrugs();
+                    displaySuccessMessage("Drug added successfully!");
+                }
+            })
+            .catch(error => {
+                console.error('Error adding drug:', error);
+                displayErrorMessage('Error adding drug. Please try again later.');
+            });
+        });
+
+        // Function to open the update stock modal
+        function openUpdateStockModal(drugId) {
+            const modal = document.getElementById('updateStockModal');
+            document.getElementById('drugId').value = drugId;
+            modal.style.display = 'block';
+        }
+
+        // Function to close the update stock modal
+        function closeUpdateStockModal() {
+            const modal = document.getElementById('updateStockModal');
+            modal.style.display = 'none';
+        }
+
+        // Handle form submission for updating stock
+        // Handle form submission for updating stock
+        document.getElementById("updateStockForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const drugId = document.getElementById("drugId").value;
+            const newStockLevel = document.getElementById("newStockLevel").value.trim();
+
+            try {
+                // Send only the quantity (stockLevel) as required by the API
+                const response = await fetch(`https://localhost:7210/api/SupplierDrug/stock/${drugId}`, {
+                    method: "PUT",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(newStockLevel) // Send the new stock level directly
+                });
+
+                if (response.ok) {
+                    displaySuccessMessage("Stock updated successfully!");
+                    fetchAllDrugs();  // Refresh the table
+                    closeUpdateStockModal();
+                } else {
+                    throw new Error('Failed to update stock.');
+                }
+            } catch (error) {
+                console.error("Update stock error:", error);
+                displayErrorMessage("Error updating stock. Please try again.");
+            }
+        });
+
+
+        // Function to delete a drug
+        function deleteDrug(drugId) {
+            const confirmed = confirm("Are you sure you want to delete this drug?");
+            if (confirmed) {
+                fetch(`https://localhost:7210/api/SupplierDrug/delete/${drugId}`, {
+                    method: "DELETE",
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.message) {
+                            displaySuccessMessage("Drug deleted successfully!");
+                            fetchAllDrugs();  // Refresh the table
+                        } else {
+                            displayErrorMessage("Failed to delete drug.");
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Delete drug error:", error);
+                        displayErrorMessage("Error deleting drug. Please try again.");
+                    });
+            }
+        }
+
+    </script>
+}

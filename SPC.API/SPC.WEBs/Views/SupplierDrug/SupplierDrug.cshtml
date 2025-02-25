@@ -1,0 +1,191 @@
+﻿@{
+    Layout = "~/Views/Shared/_StaffNavigation1.cshtml";
+}
+
+<h2 class="mt-3">@ViewData["Title"]</h2>
+
+<!-- Search Box -->
+<div class="mb-3">
+    <label for="searchTerm" class="form-label"><i class="fas fa-search"></i> Search Drugs:</label>
+    <div class="input-group">
+        <input type="text" id="searchTerm" class="form-control" placeholder="Enter drug name" />
+        <button class="btn btn-primary" onclick="searchAllDrugs()"><i class="fas fa-search"></i> Search</button>
+    </div>
+</div>
+
+<!-- Display Drugs Table -->
+<div class="table-responsive">
+    <table class="table table-striped table-hover" id="allDrugsTable">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Supplier ID</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+                <th>Stock Level</th>
+                <th>Manufacture Date</th>
+                <th>Expiry Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic rows will be inserted here -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Bootstrap Modal for Order Form -->
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="orderModalLabel"><i class="fas fa-shopping-cart"></i> Place Supplier Drug Order</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="supplierOrderForm">
+                    <div class="mb-3">
+                        <label for="drugId" class="form-label">Drug ID:</label>
+                        <input type="number" id="drugId" class="form-control" readonly required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="supplierId" class="form-label">Supplier ID:</label>
+                        <input type="number" id="supplierId" class="form-control" readonly required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity:</label>
+                        <input type="number" id="quantity" class="form-control" oninput="validateQuantity()" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="totalPrice" class="form-label">Total Price:</label>
+                        <input type="text" id="totalPrice" class="form-control" readonly required />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fas fa-times"></i> Close</button>
+                <button type="button" class="btn btn-success" onclick="placeSupplierOrder()"><i class="fas fa-check"></i> Order</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetchAllSupplierDrugs();
+        });
+
+        let selectedUnitPrice = 0;
+        let selectedStockLevel = 0;
+
+        function fetchAllSupplierDrugs() {
+            fetch("https://localhost:7210/api/SupplierDrug/all")
+                .then(response => response.json())
+                .then(data => {
+                    displayAllDrugs(data);
+                })
+                .catch(error => {
+                    console.error("Error fetching all drugs:", error);
+                });
+        }
+
+        function displayAllDrugs(drugs) {
+            const tableBody = document.querySelector("#allDrugsTable tbody");
+            tableBody.innerHTML = "";
+
+            if (drugs && drugs.length > 0) {
+                drugs.forEach(drug => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                                <td>${drug.name}</td>
+                                <td>${drug.supplierId}</td>
+                                <td>${drug.description}</td>
+                                <td>${drug.unitPrice.toFixed(2)}</td>
+                                <td>${drug.stockLevel}</td>
+                                <td>${new Date(drug.manufactureDate).toLocaleDateString()}</td>
+                                <td>${new Date(drug.expiryDate).toLocaleDateString()}</td>
+                                <td>
+                                    <button class="btn btn-sm btn-primary" onclick="openOrderModal(${drug.id}, ${drug.supplierId}, ${drug.unitPrice}, ${drug.stockLevel})">
+                                        <i class="fas fa-shopping-cart"></i> Order
+                                    </button>
+                                </td>
+                            `;
+                    tableBody.appendChild(row);
+                });
+            } else {
+                tableBody.innerHTML = '<tr><td colspan="8" class="text-center text-danger">No drugs available.</td></tr>';
+            }
+        }
+
+        function openOrderModal(drugId, supplierId, unitPrice, stockLevel) {
+            document.getElementById("drugId").value = drugId;
+            document.getElementById("supplierId").value = supplierId;
+            selectedUnitPrice = unitPrice;
+            selectedStockLevel = stockLevel;
+            document.getElementById("quantity").max = stockLevel;
+            calculateTotalPrice();
+
+            var myModal = new bootstrap.Modal(document.getElementById('orderModal'));
+            myModal.show();
+        }
+
+        function validateQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            let quantity = parseInt(quantityInput.value);
+            if (quantity > selectedStockLevel) {
+                alert("Order quantity cannot exceed available stock.");
+                quantityInput.value = selectedStockLevel;
+            }
+            calculateTotalPrice();
+        }
+
+        function calculateTotalPrice() {
+            const quantity = document.getElementById("quantity").value;
+            const totalPrice = quantity && selectedUnitPrice ? (quantity * selectedUnitPrice).toFixed(2) : "";
+            document.getElementById("totalPrice").value = totalPrice;
+        }
+
+        function placeSupplierOrder() {
+            const drugId = document.getElementById("drugId").value;
+            const supplierId = document.getElementById("supplierId").value;
+            const quantity = document.getElementById("quantity").value;
+            const totalPrice = document.getElementById("totalPrice").value;
+
+            if (!drugId || !supplierId || !quantity || !totalPrice) {
+                alert("Please complete all fields.");
+                return;
+            }
+
+            const orderData = {
+                drugId: parseInt(drugId),
+                supplierId: parseInt(supplierId),
+                quantity: parseInt(quantity),
+                totalPrice: parseFloat(totalPrice)
+            };
+
+            fetch("https://localhost:7210/api/SupplierDrugOrder", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(orderData)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert("Order placed successfully!");
+                        document.getElementById("supplierOrderForm").reset();
+                        var myModalEl = document.getElementById('orderModal');
+                        var modal = bootstrap.Modal.getInstance(myModalEl);
+                        modal.hide();
+                    } else {
+                        alert("Error placing order. Please try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error placing order:", error);
+                });
+        }
+    </script>
+}

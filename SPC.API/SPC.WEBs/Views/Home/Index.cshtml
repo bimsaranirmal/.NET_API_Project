@@ -1,0 +1,133 @@
+﻿@{
+    ViewBag.Title = "State Pharmaceutical Cooperation";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+        color: white;
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .feature-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 1.5rem;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+    .feature-icon {
+        font-size: 3rem;
+        color: #3498db;
+        margin-bottom: 1rem;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .animate__animated {
+        --animate-duration: 1s;
+    }
+</style>
+
+<main>
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 animate__animated animate__fadeInDown">
+                        State Pharmaceutical Cooperation (SPC)
+                    </h1>
+                    <p class="lead animate__animated animate__fadeInUp">
+                        Ensuring National Health Through Innovative Pharmaceutical Solutions
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card feature-card animate__animated animate__fadeInLeft">
+                    <div class="card-body">
+                        <i class="fas fa-capsules feature-icon"></i>
+                        <h2>Drug Inventory Management</h2>
+                        <p>
+                            Comprehensive tracking and management of pharmaceutical inventory
+                            across manufacturing plants and distribution networks.
+                        </p>
+                        <a href="@Url.Action("StaffLogin", "Staff")" class="btn btn-primary">
+                            Explore Inventory
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <i class="fas fa-industry feature-icon"></i>
+                        <h2>Manufacturing Plants</h2>
+                        <p>
+                            Advanced stock management and tracking for our pharmaceutical
+                            manufacturing facilities to ensure continuous supply.
+                        </p>
+                        <a href="@Url.Action("StaffLogin", "Staff")" class="btn btn-primary">
+                            View Plants
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card animate__animated animate__fadeInRight">
+                    <div class="card-body">
+                        <i class="fas fa-file-contract feature-icon"></i>
+                        <h2>Supplier Tenders</h2>
+                        <p>
+                            Streamlined tender management process for suppliers to participate
+                            in our pharmaceutical procurement initiatives.
+                        </p>
+                        <a href="@Url.Action("SupplierLogin", "Supplier")" class="btn btn-primary">
+                            Submit Tender
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h2 class="mb-4">Our Commitment</h2>
+                <p class="lead">
+                    SPC is dedicated to improving national healthcare through innovative
+                    pharmaceutical solutions, advanced manufacturing, and efficient distribution.
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const cards = document.querySelectorAll('.feature-card');
+
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.classList.add('animate__pulse');
+            });
+
+            card.addEventListener('mouseleave', function() {
+                this.classList.remove('animate__pulse');
+            });
+        });
+    });
+</script>

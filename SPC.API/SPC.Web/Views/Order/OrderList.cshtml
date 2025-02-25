@@ -1,0 +1,38 @@
+﻿@model List<SPC.Web.Models.Order>
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h2>Orders</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Pharmacy ID</th>
+            <th>Order Date</th>
+            <th>Status</th>
+            <th>Items</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.PharmacyId</td>
+                <td>@order.OrderDate</td>
+                <td>@order.Status</td>
+                <td>
+                    <ul>
+                        @foreach (var item in order.Items)
+                        {
+                            <li>Drug ID: @item.DrugId, Qty: @item.Quantity, Price: @item.UnitPrice</li>
+                        }
+                    </ul>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

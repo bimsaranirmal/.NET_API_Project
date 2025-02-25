@@ -1,0 +1,31 @@
+﻿@model SPC.Web.Models.Supplier
+
+@{
+    ViewData["Title"] = "Supplier Registration";
+}
+
+<h2>Supplier Registration</h2>
+
+<form asp-action="Register" method="post">
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div>
+        <label>Registration Number:</label>
+        <input asp-for="RegistrationNumber" class="form-control" required />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" class="form-control" required />
+    </div>
+    <div>
+        <label>Contact Number:</label>
+        <input asp-for="ContactNumber" class="form-control" required />
+    </div>
+    <div>
+        <label>Address:</label>
+        <input asp-for="Address" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Register</button>
+</form>

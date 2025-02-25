@@ -1,0 +1,73 @@
+﻿@model SPC.Web.Models.Drug
+
+@{
+    ViewData["Title"] = "Add New Drug";
+}
+
+<h2>Add New Drug</h2>
+
+<form id="drugForm">
+    <div class="form-group">
+        <label>Name:</label>
+        <input asp-for="Name" class="form-control" id="Name" required />
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <textarea asp-for="Description" class="form-control" id="Description" required></textarea>
+    </div>
+    <div class="form-group">
+        <label>Unit Price:</label>
+        <input asp-for="UnitPrice" type="number" step="0.01" class="form-control" id="UnitPrice" required />
+    </div>
+    <div class="form-group">
+        <label>Stock Level:</label>
+        <input asp-for="StockLevel" type="number" class="form-control" id="StockLevel" required />
+    </div>
+    <div class="form-group">
+        <label>Manufacturing Plant ID:</label>
+        <input asp-for="ManufacturingPlantId" class="form-control" id="ManufacturingPlantId" required />
+    </div>
+    <div class="form-group">
+        <label>Manufacture Date:</label>
+        <input asp-for="ManufactureDate" type="date" class="form-control" id="ManufactureDate" required />
+    </div>
+    <div class="form-group">
+        <label>Expiry Date:</label>
+        <input asp-for="ExpiryDate" type="date" class="form-control" id="ExpiryDate" required />
+    </div>
+    <button type="button" class="btn btn-primary mt-2" id="submitBtn">Add Drug</button>
+</form>
+
+<script>
+    document.getElementById("submitBtn").addEventListener("click", async function () {
+        // Get form data
+        var drug = {
+            Name: document.getElementById("Name").value,
+            Description: document.getElementById("Description").value,
+            UnitPrice: parseFloat(document.getElementById("UnitPrice").value),
+            StockLevel: parseInt(document.getElementById("StockLevel").value),
+            ManufacturingPlantId: document.getElementById("ManufacturingPlantId").value,
+            ManufactureDate: document.getElementById("ManufactureDate").value,
+            ExpiryDate: document.getElementById("ExpiryDate").value
+        };
+
+        try {
+            const response = await fetch("https://localhost:7210/api/inventory/add", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json" // Set the correct Content-Type header
+                },
+                body: JSON.stringify(drug) // Send the form data as JSON
+            });
+
+            if (response.ok) {
+                window.location.href = "/Home/Index"; // Redirect on success
+            } else {
+                const errorData = await response.json();
+                alert("Error: " + errorData.message); // Display error if something goes wrong
+            }
+        } catch (error) {
+            alert("An error occurred: " + error.message);
+        }
+    });
+</script>

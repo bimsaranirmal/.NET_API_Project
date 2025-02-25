@@ -1,0 +1,29 @@
+﻿@model List<SPC.Web.Models.Drug>
+
+@{
+    ViewData["Title"] = "Drugs List";
+}
+
+<h2>Available Drugs</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Stock Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var drug in Model)
+        {
+            <tr>
+                <td>@drug.Name</td>
+                <td>@drug.Description</td>
+                <td>@drug.UnitPrice</td>
+                <td>@drug.StockLevel</td>
+            </tr>
+        }
+    </tbody>
+</table>

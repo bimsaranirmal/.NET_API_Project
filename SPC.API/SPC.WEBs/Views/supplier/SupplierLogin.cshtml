@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplier Login - My ASP.NET Application</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        .login-container {
+            max-width: 350px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+            .login-header h2 {
+                color: #2c3e50;
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+            }
+
+            .login-header p {
+                color: #7f8c8d;
+                font-size: 0.9rem;
+            }
+
+        .form-control {
+            border-radius: 8px;
+            padding: 0.8rem 1rem;
+            border: 2px solid #eee;
+            transition: all 0.3s ease;
+        }
+
+            .form-control:focus {
+                border-color: #3498db;
+                box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+            }
+
+        .input-group-text {
+            background: transparent;
+            border: 2px solid #eee;
+            border-right: none;
+        }
+
+        .btn-primary {
+            width: 98%;
+            padding: 0.8rem;
+            background: #3498db;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background: #2980b9;
+                transform: translateY(-2px);
+            }
+
+        .register-link {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+            .register-link a {
+                color: #3498db;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+                .register-link a:hover {
+                    text-decoration: underline;
+                }
+
+        .alert {
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="login-header">
+                <h2>Supplier Login</h2>
+                <p>Welcome! Please enter your credentials</p>
+            </div>
+
+            @using (Html.BeginForm("", "", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                <div id="error-message" class="alert alert-danger" style="display: none;"></div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" id="email" name="email" class="form-control" placeholder="Email" required>
+                    <label for="email"><i class="fas fa-envelope me-2"></i>Email Address</label>
+                </div>
+
+                <div class="form-floating mb-4">
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+                    <label for="password"><i class="fas fa-lock me-2"></i>Password</label>
+                </div>
+
+                <button type="button" id="login-button" class="btn btn-primary">
+                    <i class="fas fa-sign-in-alt me-2"></i>Login
+                </button>
+
+                <div class="register-link">
+                    <a href="@Url.Action("Register", "Supplier")">
+                        <i class="fas fa-user-plus me-1"></i>Don't have an account? Register here
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById("login-button").addEventListener("click", async function () {
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value.trim();
+            const errorMessageDiv = document.getElementById("error-message");
+
+            // Retrieve the anti-forgery token
+            const tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+            const csrfToken = tokenElement ? tokenElement.value : "";
+
+            // Clear previous errors
+            errorMessageDiv.style.display = "none";
+            errorMessageDiv.innerText = "";
+
+            if (!email || !password) {
+                errorMessageDiv.innerText = "Email and password are required.";
+                errorMessageDiv.style.display = "block";
+                return;
+            }
+
+            try {
+                const response = await fetch("https://localhost:7210/api/supplier/login", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "RequestVerificationToken": csrfToken
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+
+                const responseText = await response.text();
+                console.log("Raw Response:", responseText); // Debugging
+
+                let result;
+                try {
+                    result = JSON.parse(responseText);
+                } catch (jsonError) {
+                    throw new Error("Unexpected response from server.");
+                }
+
+                if (!response.ok) {
+                    throw new Error(result.message || "Invalid email or password.");
+                }
+
+                if (result.message === "Your account has not been approved yet.") {
+                    throw new Error("Your account is pending approval. Please wait for approval.");
+                }
+
+                if (!result.supplier || !result.supplier.id) {  // Ensure `id` exists
+                    throw new Error("Invalid response from server. Supplier ID missing.");
+                }
+
+                const supplierId = result.supplier.id;
+
+                // Redirect with SupplierId as a query parameter
+                window.location.href = `/Navigate/SupplierNavigation?supplierId=${supplierId}`;
+
+            } catch (error) {
+                console.error("Login error:", error);
+                errorMessageDiv.innerText = error.message;
+                errorMessageDiv.style.display = "block";
+            }
+        });
+    </script>
+</body>
+</html>
